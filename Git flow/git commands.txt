@@ -1,0 +1,29 @@
+0) git status  (To check status it will show untracked files and files which are staging area)
+
+1) git add .     (To move all files from working directory to staging area)(working directory to staging area)
+
+2) git commit -m "message  (staging to local repository)
+
+
+
+
+Local to Remote:
+
+or create a new repository on the command line
+
+echo "# javascript" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sukeshkumar2/javascript.git
+git push -u origin main
+
+
+
+or push an existing repository from the command line
+
+git remote add origin https://github.com/sukeshkumar2/javascript.git
+git branch -M main
+git push -u origin main
+
