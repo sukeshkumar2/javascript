@@ -29,3 +29,5 @@ function someFunction()
 someFunction();
 
 rand();
+
+//test
